@@ -1,0 +1,71 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-Map2Real_mvp_2-68eb0960-d195-4b31-ab7b-839dd45ac259</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\QuestPDF\**" />
+    <Compile Remove="MyStaticFiles\**" />
+    <Compile Remove="wwwroot\App_dev\**" />
+    <Compile Remove="wwwroot\downloads\**" />
+    <Content Remove="Controllers\QuestPDF\**" />
+    <Content Remove="MyStaticFiles\**" />
+    <Content Remove="wwwroot\App_dev\**" />
+    <Content Remove="wwwroot\downloads\**" />
+    <EmbeddedResource Remove="Controllers\QuestPDF\**" />
+    <EmbeddedResource Remove="MyStaticFiles\**" />
+    <EmbeddedResource Remove="wwwroot\App_dev\**" />
+    <EmbeddedResource Remove="wwwroot\downloads\**" />
+    <None Remove="Controllers\QuestPDF\**" />
+    <None Remove="MyStaticFiles\**" />
+    <None Remove="wwwroot\App_dev\**" />
+    <None Remove="wwwroot\downloads\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\static\charts-chartjs.html" />
+    <Content Remove="wwwroot\static\icons-feather.html" />
+    <Content Remove="wwwroot\static\index.html" />
+    <Content Remove="wwwroot\static\maps-google.html" />
+    <Content Remove="wwwroot\static\pages-blank.html" />
+    <Content Remove="wwwroot\static\pages-directions.html" />
+    <Content Remove="wwwroot\static\pages-profile.html" />
+    <Content Remove="wwwroot\static\pages-sign-in.html" />
+    <Content Remove="wwwroot\static\pages-sign-up.html" />
+    <Content Remove="wwwroot\static\pages-trips.html" />
+    <Content Remove="wwwroot\static\TBR_pages-trips_1.html" />
+    <Content Remove="wwwroot\static\ui-buttons.html" />
+    <Content Remove="wwwroot\static\ui-cards.html" />
+    <Content Remove="wwwroot\static\ui-forms.html" />
+    <Content Remove="wwwroot\static\ui-typography.html" />
+    <Content Remove="wwwroot\static\upgrade-to-pro.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.3" />
+    <PackageReference Include="MySql.Data" Version="9.0.0" />
+    <PackageReference Include="MySqlConnector" Version="2.3.7" />
+    <PackageReference Include="MySqlConnector.DependencyInjection" Version="2.3.6" />
+    <PackageReference Include="QuestPDF" Version="2024.7.2" />
+    <PackageReference Include="Syncfusion.Pdf.Net.Core" Version="26.2.7" />
+    <PackageReference Include="System.Drawing.Common" Version="9.0.0-preview.6.24327.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\App_m2r\m2r_img\" />
+  </ItemGroup>
+
+</Project>

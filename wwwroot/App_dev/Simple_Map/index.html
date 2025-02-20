@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Simple Map</title>
+    <script src="m2reventslatlng.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <style>
+        /*
+        * Always set the map height explicitly to define the size of the div element
+        * that contains the map.
+        */
+        #map {
+            height: 100%;
+        }
+
+        /*
+        * Optional: Makes the sample page fill the window.
+        */
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <!-- prettier-ignore -->
+    <script>
+        (g => { var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => { await (a = m.createElement("script")); e.set("libraries", [...r] + ""); for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]); e.set("callback", c + ".maps." + q); a.src = `https://maps.${c}apis.com/maps/api/js?` + e; d[q] = f; a.onerror = () => h = n(Error(p + " could not load.")); a.nonce = m.querySelector("script[nonce]")?.nonce || ""; m.head.append(a) })); d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)) })
+            ({ key: "AIzaSyC8F1bVIGsP_nHBaOBgBpDCsRd-LYeFUsA", v: "weekly" });</script>
+
+    <script>
+        let map;
+
+        async function initMap() {
+            const { Map } = await google.maps.importLibrary("maps");
+
+            // get polyline
+            var device_imei = '122145'
+            var jsonStr = await fetchmap(device_imei,"","");
+           // console.log(jsonStr)
+            var json = JSON.parse(jsonStr)
+           // console.log(json)
+            var path = getsortedpath(json)
+            /*var path = getpath(json)*/
+
+            // draw map
+            //map = new Map(document.getElementById("map"), {
+            //    center: { lat: -34.397, lng: 150.644 },
+            //    zoom: 8,
+            //});
+            var pl = path.length;
+            var lat = path[pl - 1].lat;
+            var lng = path[pl - 1].lng;
+            map = new Map(document.getElementById("map"), {
+                center: { lat: Number(lat), lng: Number(lng) },
+                zoom: 15,
+            });
+            
+            const flightPath = new google.maps.Polyline({
+                path: path,
+                geodesic: true,
+                strokeColor: "#FF0000",
+                strokeOpacity: 1.0,
+                strokeWeight: 2,
+            });
+
+            flightPath.setMap(map);
+            var pl = path.length - 1;
+            map.setCenter({ lat: path[pl].lat, lng: path[pl].lng })
+        }
+
+        initMap();
+
+        function getpath(json) {
+            
+            var path = []
+            for (var i = 1; i < json.length; i++) {
+                var lat = json[i].lat;
+                var lng = json[i].lng;
+
+                var item = { lat: Number(lat), lng: Number(lng) };
+                path.push(item)
+            }
+            return path
+        }
+
+        function getsortedpath(json) {
+            
+            var sortedpath = sortpath(json);
+            var path = []
+            for (var i = 1; i < sortedpath.length; i++) {
+                var lat = sortedpath[i][1];
+                var lng = sortedpath[i][2];
+
+                var item = { lat: lat, lng: lng };
+                path.push(item)
+            }
+            return path
+        }
+
+        function sortpath(json) {
+            var path = []
+            for (var i = 1; i < json.length; i++) {
+                var eventdate = json[i].date;
+                var lat = json[i].lat;
+                var lng = json[i].lng;
+
+                var item = [eventdate,Number(lat),Number(lng)];
+                path.push(item)
+            }
+
+            var sortedpath = [...path]
+            var sortedpath = path.sort(function (a, b) { return a[0] - b[0] })
+
+            for (var j = 1; j < sortedpath.length; j++) {
+                var diff = sortedpath[j][0] - sortedpath[j - 1][0]
+                sortedpath[j].push(diff)
+            }
+
+            
+            console.log(sortedpath.length, sortedpath)
+            return sortedpath;
+        }
+
+        async function fetchmap(imei_id, date_start, date_finish) {
+            date_start = '2024-5-1'
+            date_finish = '2024-5-31'
+            var uri = '/api/events/ms/'
+            if (!imei_id) { imei_id = "" }
+            if (!date_start) { date_start = "" } else { date_start = "/" + date_start }
+            if (!date_finish) { date_finish = "" } else { date_finish = "/" + date_finish }
+
+            uri += imei_id + date_start  + date_finish;
+
+            var response = await fetch(uri);
+            var txtStr = await response.text();
+            return txtStr;
+        }
+
+    </script>
+</head>
+<body>
+    <div id="map"></div>
+
+</body>
+</html>

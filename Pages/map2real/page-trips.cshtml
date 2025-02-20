@@ -1,0 +1,574 @@
+﻿@page
+@model Map2Real_mvp_2.Pages.map2real.page_tripsModel
+@{
+	Layout = "_Layout_trips";
+}
+
+<div class="wrapper">
+	<div id="m2r_uix_offcanvas_trip" class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" aria-labelledby="m2r_offcanvas_tripLabel">
+		<!-- m2r_offcanvas_trip -->
+	</div>
+    <nav id="sidebar" class="sidebar js-sidebar">
+        <div class="sidebar-content js-simplebar">
+            <a class="sidebar-brand" href="~/map2real/index">
+                <span class="align-middle"><img height="50" src="/static/img/m2r/Logo_map2Real.svg" /></span>
+            </a>
+            <div id="buttonDiv"></div>
+            <ul class="sidebar-nav">
+                <li class="sidebar-header text-end m-0 p-0 me-4">
+                    <small>Rev: 06/02/25</small> @* Adicionado IMEI 5003 na lista de devices *@
+                   @*  <small>Rev: 21/01/25</small> *@
+                </li>
+                <li class="sidebar-header pt-0">
+                    Pages
+                </li>
+
+                <li class="sidebar-item">
+                    <a class="sidebar-link" href="~/map2real/index">
+                        <i class="align-middle" data-feather="star"></i> <span class="align-middle">Relatórios</span>
+                    </a>
+                </li>
+                @*<li class="sidebar-item">
+
+                <div class="accordion" id="accordionExample">
+                <div class="accordion-item border-0">
+                <a class="sidebar-link" data-bs-toggle="collapse" data-bs-target="#offcanvas_filters" href="#">
+                <i class="align-middle" data-feather="filter"></i> <span class="align-middle">Filtros</span>
+                </a>
+                <div id="collapseOne" class="accordion-collapse collapse show bg-dark" data-bs-parent="#accordionExample">
+                <div class="accordion-body bg-transparent">
+                <div id= "m2r_date_selection" class="btn-group btn-group-sm p-0 m-0 w-100" role="group">
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                <label class="btn btn-outline-info p-1" for="btnradio1">Hoje</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                <label class="btn btn-outline-info p-1" for="btnradio2">Ontem</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+                <label class="btn btn-outline-info p-1" for="btnradio4">Este Mês</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
+                <label class="btn btn-outline-info p-1" for="btnradio5">30 Dias</label>
+                </div>
+                </div>
+                </div>
+                </div>
+
+                </div>
+                </li>*@
+                <li class="sidebar-item active">
+                    <a class="sidebar-link" href="#">
+                        <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M5,14H19L17.5,9.5H6.5L5,14M17.5,19A1.5,1.5 0 0,0 19,17.5A1.5,1.5 0 0,0 17.5,16A1.5,1.5 0 0,0 16,17.5A1.5,1.5 0 0,0 17.5,19M6.5,19A1.5,1.5 0 0,0 8,17.5A1.5,1.5 0 0,0 6.5,16A1.5,1.5 0 0,0 5,17.5A1.5,1.5 0 0,0 6.5,19M18.92,9L21,15V23A1,1 0 0,1 20,24H19A1,1 0 0,1 18,23V22H6V23A1,1 0 0,1 5,24H4A1,1 0 0,1 3,23V15L5.08,9C5.28,8.42 5.85,8 6.5,8H17.5C18.15,8 18.72,8.42 18.92,9M12,0C14.12,0 16.15,0.86 17.65,2.35L16.23,3.77C15.11,2.65 13.58,2 12,2C10.42,2 8.89,2.65 7.77,3.77L6.36,2.35C7.85,0.86 9.88,0 12,0M12,4C13.06,4 14.07,4.44 14.82,5.18L13.4,6.6C13.03,6.23 12.53,6 12,6C11.5,6 10.97,6.23 10.6,6.6L9.18,5.18C9.93,4.44 10.94,4 12,4Z" /></svg>
+                        <span class="align-middle">Dispositivos</span>
+                    </a>
+
+                    <div class="d-flex flex-column flex-fill m-3">
+                        <div class="d-flex flex-row w-100">
+                            <label id="all-label" class="btn btn-outline-info m2r-device w-100 m-1">Todos</label>
+                        </div>
+                        <div id="m2r_device_selection" class="d-flex flex-row w-100 flex-wrap">
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="sidebar-item active">
+                    <a class="sidebar-link d-flex justify-content-between">
+                        <div><i class="align-middle" data-feather="flag"></i> <span class="align-middle">Viagens</span></div>
+                        <div class="d-flex justify-content-end text-center">
+                            <div id="m2r_trip_txt_download" class="btn btn-sm p-0 mx-1">
+                                <svg height="24" width="24" viewBox="0 0 24 24"><path fill="currentColor" d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" /></svg>
+                            </div>
+                            <div id="m2r_trip_menu_printer" class="btn btn-sm p-0 mx-1">
+                                <svg height="24" width="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19 8C20.66 8 22 9.34 22 11V17H18V21H6V17H2V11C2 9.34 3.34 8 5 8H6V3H18V8H19M8 5V8H16V5H8M16 19V15H8V19H16M18 15H20V11C20 10.45 19.55 10 19 10H5C4.45 10 4 10.45 4 11V15H6V13H18V15M19 11.5C19 12.05 18.55 12.5 18 12.5C17.45 12.5 17 12.05 17 11.5C17 10.95 17.45 10.5 18 10.5C18.55 10.5 19 10.95 19 11.5Z" /></svg>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <sidebar-active>
+                    <li id="m2r_menu_trips_header" class="sidebar-item"></li>
+                </sidebar-active>
+                <sidebar-active>
+                    <li class="sidebar-header pt-0">
+                        Viagens concluídas
+                    </li>
+                    <li id="m2r_menu_trips_list" class="sidebar-item"></li>
+
+                </sidebar-active>
+
+            </ul>
+
+            <!-- OUT OF SCOPE BELOW -->
+
+
+            <div class="sidebar-cta">
+                <div class="sidebar-cta-content bg-transparent">
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <nav id="m2r_sidebar" class="sidebar js-sidebar m2r_sidebar d-none">
+        <div class="sidebar-content js-simplebar overflow-y-auto">
+            <div class="m-2 text-info ">
+                <div class="offcanvas-header d-flex flex-column">
+                    <h4 class="offcanvas-title text-info mb-3" id="offcanvas_filtersLabel"><strong>Filtros de Viagem</strong></h4>
+                    <div class="d-flex flex-row justify-content-between w-100">
+                        <div class="btn-group" role="group">
+                            <button type="button" name="update" id="m2r_filter_update" class="btn btn-success m2r_filter_options">Atualizar</button>
+                            <button type="button" name="clear" id="m2r_filter_remove_all" class="btn btn-danger m2r_filter_options">Limpar</button>
+                        </div>
+                        <div data-bs-theme="dark" class="m-2 ms-3">
+                            <button type="button" class="btn-close" aria-label="Close" onclick="m2r_uix_toggle_sidebarFilters()"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="offcanvas-body p-3">
+                    <div class="row border border-dark ">
+                        <div id="m2r_filters" class="d-flex flex-column">
+
+                            <div class="row" id="m2r_filter_form">
+                                <div class="p-2 col-12">
+                                    1. Operador
+                                    <div id="m2r_filter_operator">
+                                        <input type="radio" m2r_data="details_operator" value="MAP2" class="btn-check m2r_filter" name="details_operator" id="option-1-1" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-1-1" style="font-size:11px;">
+                                            <strong>Map2</strong>
+                                        </label>
+
+                                        <input type="radio" m2r_data="details_operator" value="UNIVAR" class="btn-check m2r_filter" name="details_operator" id="option-1-2" autocomplete="off" checked>
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-1-2" style="font-size:11px;">
+                                            <strong>UNIVAR</strong>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="p-2 col-12">
+                                    2. Dispositivo/ Veículo
+                                    <div id="m2r_filter_device" class="d-flex flex-wrap">
+
+                                        <input type="checkbox" m2r_data="device_imei" value="all" class="btn-check m2r_filter" name="device_imei" id="option-2-0" autocomplete="off">
+                                        <label class="btn btn-outline-info p-0 px-1 m-1 rounded-1" for="option-2-0" style="font-size:11px;">
+                                            <strong>Todos</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="device_imei" value="867488060855003" class="btn-check m2r_filter op_Map2 dev_filter" name="device_imei" id="option-2-1" autocomplete="off" disabled>
+                                        <label class="btn btn-outline-primary p-0 px-1 m-1 rounded-1" for="option-2-1" style="font-size:11px;">
+                                            <strong>5003 Veic 01</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="device_imei" value="862193026868968" class="btn-check m2r_filter op_Map2 dev_filter" name="device_imei" id="option-2-2" autocomplete="off" disabled>
+                                        <label class="btn btn-outline-primary p-0 px-1 m-1 rounded-1" for="option-2-2" style="font-size:11px;">
+                                            <strong>8968 Veic 02</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="device_imei" value="867488060855136" class="btn-check m2r_filter op_Map2 dev_filter" name="device_imei" id="option-2-3" autocomplete="off" disabled>
+                                        <label class="btn btn-outline-primary p-0 px-1 m-1 rounded-1" for="option-2-3" style="font-size:11px;">
+                                            <strong>5136 Veic 03</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="device_imei" value="867488060828356" class="btn-check m2r_filter op_UNIVAR dev_filter" name="device_imei" id="option-2-4" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-1 rounded-1" for="option-2-4" style="font-size:11px;">
+                                            <strong>8356 MVP_1</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="device_imei" value="867488060847315" class="btn-check m2r_filter op_UNIVAR dev_filter" name="device_imei" id="option-2-5" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-1 rounded-1" for="option-2-5" style="font-size:11px;">
+                                            <strong>7315 MVP_2</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="device_imei" value="867488060827689" class="btn-check m2r_filter op_UNIVAR dev_filter" name="device_imei" id="option-2-6" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-1 rounded-1" for="option-2-6" style="font-size:11px;">
+                                            <strong>7689 MVP_3</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="device_imei" value="867488060821138" class="btn-check m2r_filter op_UNIVAR dev_filter" name="device_imei" id="option-2-7" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-1 rounded-1" for="option-2-7" style="font-size:11px;">
+                                            <strong>1138 MVP_4</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="device_imei" value="867488060842019" class="btn-check m2r_filter op_UNIVAR dev_filter" name="device_imei" id="option-2-8" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-1 rounded-1" for="option-2-8" style="font-size:11px;">
+                                            <strong>2019 MVP_5</strong>
+                                        </label>
+
+                                    </div>
+                                </div>
+
+                                <!--<div class="col-12 p-2 d-none">
+                                    5. Driver
+                                    <div>
+                                        <input type="checkbox" m2r_data="details_driver" value="all" class="btn-check m2r_filter" name="details_driver" id="option-5-0" autocomplete="off">
+                                        <label class="btn btn-outline-success p-0 px-1 m-1 rounded-1" for="option-5-0" style="font-size:11px;">
+                                            <strong>Todos</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="details_driver" value="MAP2-1" class="btn-check m2r_filter op_Map2 op_filter" name="details_driver" id="option-5-1" autocomplete="off" disabled>
+                                        <label class="btn btn-outline-primary p-0 px-1 m-1 rounded-1" for="option-5-1" style="font-size:11px;">
+                                            <strong>MAP2-1</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="details_driver" value="MAP2-2" class="btn-check m2r_filter op_Map2 op_filter" name="details_driver" id="option-5-2" autocomplete="off" disabled>
+                                        <label class="btn btn-outline-primary p-0 px-1 m-1 rounded-1" for="option-5-2" style="font-size:11px;">
+                                            <strong>MAP2-2</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="details_driver" value="MAP2-3" class="btn-check m2r_filter op_Map2 op_filter" name="details_driver" id="option-5-3" autocomplete="off" disabled>
+                                        <label class="btn btn-outline-primary p-0 px-1 m-1 rounded-1" for="option-5-3" style="font-size:11px;">
+                                            <strong>MAP2-3</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="details_driver" value="OSASCO-1" class="btn-check m2r_filter op_UNIVAR op_filter" name="details_driver" id="option-5-4" autocomplete="off" >
+                                        <label class="btn btn-outline-primary p-0 px-1 m-1 rounded-1" for="option-5-4" style="font-size:11px;">
+                                            <strong>OSASCO-1</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="details_driver" value="OSASCO-2" class="btn-check m2r_filter op_UNIVAR op_filter" name="details_driver" id="option-5-5" autocomplete="off" >
+                                        <label class="btn btn-outline-primary p-0 px-1 m-1 rounded-1" for="option-5-5" style="font-size:11px;">
+                                            <strong>OSASCO-2</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="details_driver" value="OSASCO-3" class="btn-check m2r_filter op_UNIVAR op_filter" name="details_driver" id="option-5-6" autocomplete="off" >
+                                        <label class="btn btn-outline-primary p-0 px-1 m-1 rounded-1" for="option-5-6" style="font-size:11px;">
+                                            <strong>OSASCO-3</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="details_driver" value="OSASCO-4" class="btn-check m2r_filter op_UNIVAR op_filter" name="details_driver" id="option-5-7" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-1 rounded-1" for="option-5-7" style="font-size:11px;">
+                                            <strong>OSASCO-4</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="details_driver" value="OSASCO-5" class="btn-check m2r_filter op_UNIVAR op_filter" name="details_driver" id="option-5-8" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-1 rounded-1" for="option-5-8" style="font-size:11px;">
+                                            <strong>OSASCO-5</strong>
+                                        </label>
+                                    </div>
+                                </div>-->
+
+                                <div class="p-2 col-12">
+                                    3. Intervalo de datas
+
+                                    <div class="position-relative p-2" style="top:0;left:0;">
+                                        <input type="radio" m2r_data="date_range" value="today" class="btn-check m2r_filter date_range" name="date_range" id="option-3-1" autocomplete="off" checked>
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-3-1" style="font-size:11px;">
+                                            <strong>Hoje</strong>
+                                        </label>
+
+                                        <input type="radio" m2r_data="date_range" value="yesterday" class="btn-check m2r_filter date_range" name="date_range" id="option-3-2" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-3-2" style="font-size:11px;">
+                                            <strong>Ontem</strong>
+                                        </label>
+
+                                        <input type="radio" m2r_data="date_range" value="last7dd" class="btn-check m2r_filter date_range" name="date_range" id="option-3-3" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-3-3" style="font-size:11px;">
+                                            <strong>Últimos 7 dias</strong>
+                                        </label>
+
+                                        <input type="radio" m2r_data="date_range" value="thisMo" class="btn-check m2r_filter date_range" name="date_range" id="option-3-4" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-3-4" style="font-size:11px;">
+                                            <strong>Este mês</strong>
+                                        </label>
+
+                                        <input type="radio" m2r_data="date_range" value="last30dd" class="btn-check m2r_filter date_range" name="date_range" id="option-3-5" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-3-5" style="font-size:11px;">
+                                            <strong>Últimos 30 dias</strong>
+                                        </label>
+                                    </div>
+
+                                    <!--Date Range uncomment when releasing-->
+@*                                     <div class="input-group input-group-sm">
+                                        <span class="input-group-text">De:</span>
+                                        <input type="date" m2r_data="m2r_range" name="date_local_begin" id="option-3-10" class="form-control m2r_filter m2r_range" checked>
+                                        <span class="input-group-text">Até:</span>
+                                        <input type="date" m2r_data="m2r_range" name="date_local_finish" id="option-3-11" class="form-control m2r_filter m2r_range" checked>
+                                    </div> *@
+                                    <div class="row m-0 d-none">
+                                        <input type="text" m2r_data="m2r_range" name="date_start" id="option-3-12" class="form-control form-control-sm m2r_filter m2r_range col" checked>
+                                        <input type="text" m2r_data="m2r_range" name="date_finish" id="option-3-13" class="form-control form-control-sm m2r_filter m2r_range col" checked>
+                                    </div>
+                                </div>
+
+                                <div class="p-2 col-12 d-none">
+                                    4. Horário
+                                    <div class="input-group input-group-sm">
+                                        <span class="input-group-text">De:</span>
+                                        <input type="time" m2r_data="m2r_range" name="date_local_time_ini" id="option-4-1" class="form-control m2r_filter m2r_range" checked>
+                                        <span class="input-group-text">Até:</span>
+                                        <input type="time" m2r_data="m2r_range" name="date_local_time_end" id="option-4-2" class="form-control m2r_filter m2r_range" checked>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 p-2">
+                                    4. Perfil de viagem (Z1 - Z6)
+                                    <div class="position-relative" style="top:0;left:0;">
+                                        <input type="checkbox" m2r_data="details_profile" value="all" class="btn-check m2r_filter" name="details_profile" id="option-6-0" autocomplete="off">
+                                        <label class="btn btn-outline-info p-0 px-1 m-0 rounded-1" for="option-6-0" style="font-size:11px;">
+                                            <strong>Todos</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="details_profile" value="Z1" class="btn-check m2r_filter" name="details_profile" id="option-6-1" autocomplete="off" checked>
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-6-1" style="font-size:11px;">
+                                            <strong>Z1</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="details_profile" value="Z2" class="btn-check m2r_filter" name="details_profile" id="option-6-2" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-6-2" style="font-size:11px;">
+                                            <strong>Z2</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="details_profile" value="Z3" class="btn-check m2r_filter" name="details_profile" id="option-6-3" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-6-3" style="font-size:11px;">
+                                            <strong>Z3</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="details_profile" value="Z4" class="btn-check m2r_filter" name="details_profile" id="option-6-4" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-6-4" style="font-size:11px;">
+                                            <strong>Z4</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="details_profile" value="Z5" class="btn-check m2r_filter" name="details_profile" id="option-6-5" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-6-5" style="font-size:11px;">
+                                            <strong>Z5</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="details_profile" value="Z6" class="btn-check m2r_filter" name="details_profile" id="option-6-6" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-6-6" style="font-size:11px;">
+                                            <strong>Z6</strong>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="p-2 col-12">
+                                    5. Período horário
+                                    <div class="position-relative" style="top:0;left:0;">
+                                        <input type="checkbox" m2r_data="time_range" value="all" class="btn-check m2r_filter" name="time_range" id="option-7-0" autocomplete="off">
+                                        <label class="btn btn-outline-info p-0 px-1 m-0 rounded-1" for="option-7-0" style="font-size:11px;">
+                                            <strong>Todos</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="time_range_day_rate" value="time_range_day_rate" class="btn-check m2r_filter" name="time_range" id="option-7-1" autocomplete="off" checked>
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-7-1" style="font-size:11px;">
+                                            <strong>dia</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="time_range_night_rate" value="time_range_night_rate" class="btn-check m2r_filter" name="time_range" id="option-7-2" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-7-2" style="font-size:11px;">
+                                            <strong>Noite</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="time_range_critical_rate" value="time_range_critical_rate" class="btn-check m2r_filter" name="time_range" id="option-7-3" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-7-3" style="font-size:11px;">
+                                            <strong>Crítico</strong>
+                                        </label>
+
+                                    </div>
+                                </div>
+                                <div class="p-2 col-12">
+                                    6. Eventos/ Harsh Behavior
+                                    <div class="position-relative" style="top:0;left:0;">
+                                        <input type="checkbox" m2r_data="harsh_behavior" value="all" class="btn-check m2r_filter" name="harsh_behavior" id="option-8-0" autocomplete="off">
+                                        <label class="btn btn-outline-info p-0 px-1 m-0 rounded-1" for="option-8-0" style="font-size:11px;">
+                                            <strong>Todos</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="harsh_behavior" value="hb36" class="btn-check m2r_filter" name="harsh_behavior" id="option-8-1" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-8-1" style="font-size:11px;">
+                                            <strong>36 - Frenagem e Curva</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="harsh_behavior" value="hb37" class="btn-check m2r_filter" name="harsh_behavior" id="option-8-2" autocomplete="off" checked>
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-8-2" style="font-size:11px;">
+                                            <strong>37 - Aceleração e Curva</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="harsh_behavior" value="hb46" class="btn-check m2r_filter" name="harsh_behavior" id="option-8-3" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-8-3" style="font-size:11px;">
+                                            <strong>46 - Aceleração Brusca</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="harsh_behavior" value="hb47" class="btn-check m2r_filter" name="harsh_behavior" id="option-8-4" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-8-4" style="font-size:11px;">
+                                            <strong>47 - Frenagem Brusca</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="harsh_behavior" value="hb48" class="btn-check m2r_filter" name="harsh_behavior" id="option-8-5" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-8-5" style="font-size:11px;">
+                                            <strong>48 - Curva Brusca</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="harsh_behavior" value="hb10" class="btn-check m2r_filter" name="harsh_behavior" id="option-8-6" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-8-6" style="font-size:11px;">
+                                            <strong>10 - Uso do Pedal</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="harsh_behavior" value="hb00" class="btn-check m2r_filter" name="harsh_behavior" id="option-8-7" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-8-7" style="font-size:11px;">
+                                            <strong>00 - Ignição</strong>
+                                        </label>
+                                    </div>
+
+                                </div>
+                                <div class="p-2 col-12 pb-3">
+                                    7. Duração da viagem (TT)
+                                    <div class="position-relative" style="top:0;left:0;">
+                                        <input type="checkbox" m2r_data="trip_category" value="all" class="btn-check m2r_filter" name="trip_category" id="option-9-0" autocomplete="off">
+                                        <label class="btn btn-outline-info p-0 px-1 m-0 rounded-1" for="option-9-0" style="font-size:11px;">
+                                            <strong>Todas</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="trip_category" value="trip00" class="btn-check m2r_filter" name="trip_category" id="option-9-1" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-9-1" style="font-size:11px;">
+                                            <strong>TT <= Trip120</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="trip_category" value="trip120" class="btn-check m2r_filter" name="trip_category" id="option-9-2" autocomplete="off" checked>
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-9-2" style="font-size:11px;">
+                                            <strong> Trip120 </strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="trip_category" value="trip150" class="btn-check m2r_filter" name="trip_category" id="option-9-3" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-9-3" style="font-size:11px;">
+                                            <strong>Trip150</strong>
+                                        </label>
+
+                                        <input type="checkbox" m2r_data="trip_category" value="trip180" class="btn-check m2r_filter" name="trip_category" id="option-9-4" autocomplete="off">
+                                        <label class="btn btn-outline-primary p-0 px-1 m-0 rounded-1" for="option-9-4" style="font-size:11px;">
+                                            <strong>TT > Trip180</strong>
+                                        </label>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+
+	<div class="main"> 
+
+		<nav class="navbar navbar-expand navbar-light navbar-bg">
+			<a class="sidebar-toggle js-sidebar-toggle">
+				<i class="hamburger align-self-center"></i>
+			</a>
+			<div class="d-flex flex-row flex-fill">
+                <!--m2r_data="m2r_range" name="date_local_begin"-->
+@* 				<div class="d-flex flex-wrap">
+					<p class="m-0 p-0 me-2"><input id="m2r_date_from"  type="date" m2r-data="from" class="form-control m2r-date "></p>
+					<p class="m-0 p-0 me-2"> <input id="m2r_date_to" type="date" m2r-data="to" class="form-control m2r-date"></p>
+				</div> *@
+
+                <!--DATE RANGE-->
+                <div id="m2r_uix_date_range" class="d-flex flex-wrap">
+                    <p class="m-0 p-0 me-2">
+                        <input type="date"  id="m2r_date_from" m2r_data="m2r_range_main" name="date_local_begin" class="form-control m2r-date m2r_range" checked>
+                    </p>
+                    <p class="m-0 p-0 me-2">
+                        <input type="date" id="m2r_date_to" m2r_data="m2r_range_main" name="date_local_begin" class="form-control m2r-date m2r_range" checked></p>
+                </div>
+
+				<div class="d-flex align-items-md-stretch">
+					<div class="btn-group">
+						<button id="m2r_date_refresh" class="btn btn-primary m2r-date" m2r-data="refresh">
+							<i class="align-middle me-2" data-feather="refresh-ccw"></i>
+						</button>
+                        @*<button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+							<span class="visually-hidden">Toggle Dropdown</span>
+						</button>*@
+                        <!--FILTROS-->
+                        <button class="btn btn-primary d-none" type="button" onclick="m2r_uix_toggle_sidebarFilters()">
+                            <i class="align-middle" data-feather="filter"></i> Filtros
+                        </button>
+@*                         <button type="button" class="btn btn-secondary" onclick="m2r_uix_toggle_sidebarFilters()"> <i class="align-middle" data-feather="filter"></i></button>
+ *@					</div>
+				</div>
+				<div class="d-flex flex-fill align-self-center justify-content-end">
+					<span class="spinner-border spinner-border-sm text-warning io_hier_status d-none" aria-hidden="true"></span>
+				</div>
+			</div>
+
+			<div class="navbar-collapse collapse">
+				<ul class="navbar-nav navbar-align">
+					<li class="nav-item dropdown">
+
+						<a class="nav-icon dropdown-toggle" href="#" id="alertsDropdown" data-bs-toggle="dropdown">
+							<div class="position-relative">
+								<i class="align-middle" data-feather="bell"></i>
+								<span class="indicator">4</span>
+							</div>
+						</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-icon dropdown-toggle" href="#" id="messagesDropdown" data-bs-toggle="dropdown">
+							<div class="position-relative">
+								<i class="align-middle" data-feather="message-square"></i>
+							</div>
+						</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#" data-bs-toggle="dropdown">
+							<i class="align-middle" data-feather="settings"></i>
+						</a>
+
+						<a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
+							<img src="/static/img/avatars/avatar.jpg" class="avatar img-fluid rounded me-1" alt="Admin" /> <span class="text-dark">Admin</span>
+						</a>
+						<div class="dropdown-menu dropdown-menu-end">
+							<a class="dropdown-item" href="pages-profile.html"><i class="align-middle me-1" data-feather="user"></i> Profile</a>
+							<a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="pie-chart"></i> Analytics</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="index.html"><i class="align-middle me-1" data-feather="settings"></i> Settings & Privacy</a>
+							<a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="help-circle"></i> Help Center</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Log out</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+		</nav>
+
+		<main class="content m-0 p-0">
+			<div id="map"></div>
+		</main>
+
+		<footer class="footer d-none">
+			<div class="container-fluid">
+				<div class="row text-muted">
+					<div class="col-6 text-start">
+						<p class="mb-0">
+							&copy; 2024 <a class="text-muted" href="" target="_blank"><strong>Map2Real</strong></a><strong> - Todos os direitos reservados</strong>
+						</p>
+
+					</div>
+					<div class="col-6 text-end">
+						<ul class="list-inline">
+							<li class="list-inline-item">
+								<a class="text-muted" href="" target="_blank">Support</a>
+							</li>
+							<li class="list-inline-item">
+								<a class="text-muted" href="" target="_blank">Help Center</a>
+							</li>
+							<li class="list-inline-item">
+								<a class="text-muted" href="" target="_blank">Privacy</a>
+							</li>
+							<li class="list-inline-item">
+								<a class="text-muted" href="" target="_blank">Terms</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+@* 
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas_filters">
+
+    </div> *@
+
+</div>

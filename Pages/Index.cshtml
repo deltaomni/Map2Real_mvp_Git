@@ -1,0 +1,21 @@
+﻿@page
+@using Microsoft.AspNetCore.Identity;
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@inject SignInManager<IdentityUser> signInManager;
+@inject UserManager<IdentityUser> UserManager;
+
+
+    <div class="text-center">
+        <div>
+            <ul class="list-group">
+                <li class="list-group-item">  <a class="nav-link text-dark" asp-area="" asp-page="/map2real/index">Relatório do condutor - Máscara</a></li>
+                <li class="list-group-item">  <a class="nav-link text-dark" asp-area="" asp-page="/map2real/page-trips">Registro de Viagens</a></li>
+            </ul>
+        </div>
+    </div>
+
+

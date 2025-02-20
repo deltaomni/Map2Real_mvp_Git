@@ -1,0 +1,172 @@
+﻿<!--M2R UIX - Trips - Side Menu, Driver Header-->
+<div class="offcanvas-header d-flex flex-column text-start p-0 m-0">
+
+    <div class="d-flex flex-column mb-3 border w-100">
+        <div class="p-2 d-flex justify-content-between align-items-center">
+            <div class="d-flex flex-column flex-fill">
+                <h5 class="mb-0">Viagem Nr: <strong>{{trip.trip_nr}}</strong></h5>
+                <div class="d-flex f-xsmall justify-content-between">
+                    <div> {{trip.vehicle.make}}</div>
+                    <div> {{trip.vehicle.plate}}</div>
+                    <div> {{trip.id}}</div>
+                </div>
+
+            </div>
+            <button id="m2r_trip_printer" type="button" class="btn btn-light col-3 mx-2">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"><title>printer-outline</title><path fill="currentColor" d="M19 8C20.66 8 22 9.34 22 11V17H18V21H6V17H2V11C2 9.34 3.34 8 5 8H6V3H18V8H19M8 5V8H16V5H8M16 19V15H8V19H16M18 15H20V11C20 10.45 19.55 10 19 10H5C4.45 10 4 10.45 4 11V15H6V13H18V15M19 11.5C19 12.05 18.55 12.5 18 12.5C17.45 12.5 17 12.05 17 11.5C17 10.95 17.45 10.5 18 10.5C18.55 10.5 19 10.95 19 11.5Z" /></svg>
+            </button>
+            <button type="button" class="btn-close m2r_trip_close m-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="p-2 py-0 d-flex justify-content-between f-smaller">
+            <div class="col-1 p-0 m-0 ">Ini:</div>
+            <div class="col-6 p-0 m-0 ">{{details.time_begin}}</div>
+            <div class="col-2 p-0 m-0 ">Duração:</div>
+            <div class="col text-end p-0 m-0 pe-2">{{trip.triptt}}</div>
+        </div>
+        <div class="p-2 pt-1 d-flex justify-content-between f-smaller">
+
+            <div class="col-1 p-0 m-0 ">Fim:</div>
+            <div class="col-6 p-0 m-0 ">{{details.time_finish}}</div>
+            <div class="col-2 p-0 m-0 ">Distância:</div>
+            <div class="col text-end p-0 m-0 pe-2">{{trip.distance_str}}</div>
+
+        </div>
+    </div>
+
+</div>
+<div style="overflow-x: scroll; overflow-y:auto; min-height:170px !important;">
+    <div class="chart" style="min-height:150px !important; height:150px; ">
+        <canvas id="chartjs-line"></canvas>
+    </div>
+
+</div>
+
+    <div class="offcanvas-body pt-0">
+        <div class="container mt-1 mb-5">
+
+            <div class="d-flex justify-content-end">
+               
+                    <i class="align-middle" data-feather="printer"></i>
+               
+            </div>
+            <div class="row p-0 m-0">
+                <div id="m2r_uix_timeline" class="col-12 f-smaller" >
+                    LIST
+                </div>
+                <!--<div class="col-12">
+                    <h4>Viagem 1</h4>
+                    <ul class="timeline">
+                        <li>
+                            <a href="#">${event.EVENT16_SUMMARY[0]}</a>
+                            <a href="#" class="float-end">${date}</a>
+                            <p>
+                                Evento: ${event.EVENT16_SUMMARY[1]}<br />
+                                Velocidade: ${event.speed}<br />
+                                DTot Percorrida: ${_total_distance}<br />
+                                TTot de viagem: ${event.diff_time_sum_str}
+                            </p>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#">Aceleração</a>
+                            <a href="#" class="float-end">9:34am</a>
+                            <div class="d-flex justify-content-between">
+                                <div>1</div>
+                                <div>2</div>
+                            </div>
+                            <a href="">3</a>
+                            <a href="" class="float-end">4</a>
+                            <div>
+                                <span>Linha 1</span>
+                                <span>Linha 1b</span>
+                                Linha 2<br />
+                                Linha 3<br />
+                                Linha 4<br />
+                                Linha 5
+                            </div>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#">Frenagem</a>
+                            <a href="#" class="float-end">9:34am</a>
+                            <p>
+                                Linha 1<br />
+                                Linha 2<br />
+                                Linha 3<br />
+                                Linha 4<br />
+                                Linha 5
+                            </p>
+                        </li>
+
+                        <li>
+                            <a target="_blank" href="#">Ignição ON</a>
+                            <a href="#" class="float-end">9:34am</a>
+                            <p>
+                                Linha 1<br />
+                                Linha 2<br />
+                                Linha 3<br />
+                                Linha 4<br />
+                                Linha 5
+                            </p>
+
+                        </li>
+                        <li>
+                            <a target="_blank" href="#">Aceleração</a>
+                            <a href="#" class="float-end">9:34am</a>
+                            <p>
+                                Linha 1<br />
+                                Linha 2<br />
+                                Linha 3<br />
+                                Linha 4<br />
+                                Linha 5
+                            </p>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#">Frenagem</a>
+                            <a href="#" class="float-end">9:34am</a>
+                            <p>
+                                Linha 1<br />
+                                Linha 2<br />
+                                Linha 3<br />
+                                Linha 4<br />
+                                Linha 5
+                            </p>
+                        </li>
+
+                        <li>
+                            <a target="_blank" href="#">Ignição ON</a>
+                            <a href="#" class="float-end">9:34am</a>
+                            <p>
+                                Linha 1<br />
+                                Linha 2<br />
+                                Linha 3<br />
+                                Linha 4<br />
+                                Linha 5
+                            </p>
+
+                        </li>
+                        <li>
+                            <a target="_blank" href="#">Aceleração</a>
+                            <a href="#" class="float-end">9:34am</a>
+                            <p>
+                                Linha 1<br />
+                                Linha 2<br />
+                                Linha 3<br />
+                                Linha 4<br />
+                                Linha 5
+                            </p>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#">Frenagem</a>
+                            <a href="#" class="float-end">9:34am</a>
+                            <p>
+                                Linha 1<br />
+                                Linha 2<br />
+                                Linha 3<br />
+                                Linha 4<br />
+                                Linha 5
+                            </p>
+                        </li>
+                    </ul>
+                </div>-->
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,132 @@
+﻿/**
+ * Copyright (c) 2024
+ * MapOmega Tecnologia
+ * 
+ * MAP2REAL MVP REV2024.01
+ * This file styles GoogleMaps
+ * for MAP2REAL MVP REV2024.01
+ *
+ * @summary style for Google Maps
+ * @author KingOfDendroar <support@mapomega.com>
+ * @location [RDF, SAS, C]
+ *
+ * Created on       : 2024-07-27 00:00:00 
+ * Revision         : 01/   2024-07-27  
+ * Last modified    : 2024-07-27 11:00:00
+ * 
+ */
+
+/*Fonts*/
+
+.f-small {
+    font-size: small;
+}
+
+.f-smaller {
+    font-size: smaller;
+}
+.f-large {
+    font-size: large;
+}
+.f-larger {
+    font-size: larger !important;
+    font-size:16px;
+}
+.f-medium {
+    font-size: medium;
+}
+.f-xsmall {
+    font-size: x-small;
+}
+.f-xxsmall {
+    font-size: xx-small;
+}
+.f-xx2small {
+    font-size: 7px;
+}
+.f-xxxsmall {
+    font-size:6px;
+}
+.f-xlarge {
+    font-size: x-large;
+}
+.f-xxlarge {
+    font-size: xx-large;
+}
+
+.fw-400{
+    font-weight:400;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fw-700 {
+    font-weight: 700;
+}
+.fw-800 {
+    font-weight: 800;
+}
+
+.cw-30{
+    width:30px;
+}
+.cw-35 {
+    width: 35px;
+}
+.cw-40 {
+    width: 40px;
+}
+.cw-45 {
+    width: 45px;
+}
+.cw-50 {
+    width: 50px;
+}
+.cw-55 {
+    width: 55px;
+}
+.cw-60 {
+    width: 60px;
+}
+.cw-65 {
+    width: 65px;
+}
+.cw-70 {
+    width: 70px;
+}
+.cw-75 {
+    width: 75px;
+}
+
+/*Borders*/
+.cell-bd {
+    border-right: none !important;
+    border-bottom: none !important;
+}
+
+.cell-bd-end {
+    border-bottom: none !important;
+}
+
+.cell-bottom-bd {
+    border-right: none !important;
+}
+
+/*m2r sidebar*/
+.m2r_sidebar {
+    max-width: unset;
+    width: 600px !important;
+    /*   transition: margin-left .35s ease-in-out, left .35s ease-in-out, margin-right .35s ease-in-out, right .35s ease-in-out;
+*/
+}
+
+.m2r_filters_width {
+    position:relative;
+    top:0;
+    left:0;
+    width:500px !important;
+    z-index:100;
+}

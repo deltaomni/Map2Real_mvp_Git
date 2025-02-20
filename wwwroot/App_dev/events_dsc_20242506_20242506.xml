@@ -1,0 +1,3342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="13" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="19" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">id</Data></Cell>
+			<Cell><Data ss:Type="String">device_imei</Data></Cell>
+			<Cell><Data ss:Type="String">event_date</Data></Cell>
+			<Cell><Data ss:Type="String">lat</Data></Cell>
+			<Cell><Data ss:Type="String">lng</Data></Cell>
+			<Cell><Data ss:Type="String">altitude</Data></Cell>
+			<Cell><Data ss:Type="String">heading</Data></Cell>
+			<Cell><Data ss:Type="String">speed</Data></Cell>
+			<Cell><Data ss:Type="String">gps_state</Data></Cell>
+			<Cell><Data ss:Type="String">ignition</Data></Cell>
+			<Cell><Data ss:Type="String">odometer</Data></Cell>
+			<Cell><Data ss:Type="String">hourmeter</Data></Cell>
+			<Cell><Data ss:Type="String">event_type</Data></Cell>
+			<Cell><Data ss:Type="String">type_id</Data></Cell>
+			<Cell><Data ss:Type="String">output1</Data></Cell>
+			<Cell><Data ss:Type="String">output2</Data></Cell>
+			<Cell><Data ss:Type="String">input1</Data></Cell>
+			<Cell><Data ss:Type="String">input2</Data></Cell>
+			<Cell><Data ss:Type="String">date_bsb</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="Number">15959</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720063140</Data></Cell>
+			<Cell><Data ss:Type="String">-22.905107</Data></Cell>
+			<Cell><Data ss:Type="String">-47.068564</Data></Cell>
+			<Cell><Data ss:Type="String">694</Data></Cell>
+			<Cell><Data ss:Type="String">62</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">8500</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 00:19:00</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15960</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720063740</Data></Cell>
+			<Cell><Data ss:Type="String">-22.905107</Data></Cell>
+			<Cell><Data ss:Type="String">-47.068564</Data></Cell>
+			<Cell><Data ss:Type="String">694</Data></Cell>
+			<Cell><Data ss:Type="String">62</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">8500</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 00:29:00</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15961</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720064337</Data></Cell>
+			<Cell><Data ss:Type="String">-22.905023</Data></Cell>
+			<Cell><Data ss:Type="String">-47.068464</Data></Cell>
+			<Cell><Data ss:Type="String">739</Data></Cell>
+			<Cell><Data ss:Type="String">62</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">8500</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 00:38:57</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15962</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720064359</Data></Cell>
+			<Cell><Data ss:Type="String">-22.905023</Data></Cell>
+			<Cell><Data ss:Type="String">-47.068464</Data></Cell>
+			<Cell><Data ss:Type="String">739</Data></Cell>
+			<Cell><Data ss:Type="String">62</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">8500</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 00:39:19</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15963</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720064389</Data></Cell>
+			<Cell><Data ss:Type="String">-22.904686</Data></Cell>
+			<Cell><Data ss:Type="String">-47.067748</Data></Cell>
+			<Cell><Data ss:Type="String">717</Data></Cell>
+			<Cell><Data ss:Type="String">61</Data></Cell>
+			<Cell><Data ss:Type="String">14.2</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">8600</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 00:39:49</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15964</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720064419</Data></Cell>
+			<Cell><Data ss:Type="String">-22.905950</Data></Cell>
+			<Cell><Data ss:Type="String">-47.066833</Data></Cell>
+			<Cell><Data ss:Type="String">707</Data></Cell>
+			<Cell><Data ss:Type="String">152</Data></Cell>
+			<Cell><Data ss:Type="String">32</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">8800</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 00:40:19</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15965</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720064449</Data></Cell>
+			<Cell><Data ss:Type="String">-22.906854</Data></Cell>
+			<Cell><Data ss:Type="String">-47.065534</Data></Cell>
+			<Cell><Data ss:Type="String">708</Data></Cell>
+			<Cell><Data ss:Type="String">64</Data></Cell>
+			<Cell><Data ss:Type="String">11.4</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">9000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 00:40:49</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15966</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720064478</Data></Cell>
+			<Cell><Data ss:Type="String">-22.905789</Data></Cell>
+			<Cell><Data ss:Type="String">-47.063099</Data></Cell>
+			<Cell><Data ss:Type="String">708</Data></Cell>
+			<Cell><Data ss:Type="String">64</Data></Cell>
+			<Cell><Data ss:Type="String">37.9</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">9300</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 00:41:18</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15967</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720064508</Data></Cell>
+			<Cell><Data ss:Type="String">-22.904612</Data></Cell>
+			<Cell><Data ss:Type="String">-47.060408</Data></Cell>
+			<Cell><Data ss:Type="String">724</Data></Cell>
+			<Cell><Data ss:Type="String">66</Data></Cell>
+			<Cell><Data ss:Type="String">37.2</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">9600</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 00:41:48</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15968</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720064539</Data></Cell>
+			<Cell><Data ss:Type="String">-22.905462</Data></Cell>
+			<Cell><Data ss:Type="String">-47.059168</Data></Cell>
+			<Cell><Data ss:Type="String">710</Data></Cell>
+			<Cell><Data ss:Type="String">61</Data></Cell>
+			<Cell><Data ss:Type="String">15.1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">9800</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 00:42:19</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15969</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720064569</Data></Cell>
+			<Cell><Data ss:Type="String">-22.904790</Data></Cell>
+			<Cell><Data ss:Type="String">-47.057711</Data></Cell>
+			<Cell><Data ss:Type="String">720</Data></Cell>
+			<Cell><Data ss:Type="String">65</Data></Cell>
+			<Cell><Data ss:Type="String">31.9</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">9900</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 00:42:49</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15970</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720064599</Data></Cell>
+			<Cell><Data ss:Type="String">-22.904028</Data></Cell>
+			<Cell><Data ss:Type="String">-47.056083</Data></Cell>
+			<Cell><Data ss:Type="String">718</Data></Cell>
+			<Cell><Data ss:Type="String">62</Data></Cell>
+			<Cell><Data ss:Type="String">19</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">10100</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 00:43:19</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15971</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720064629</Data></Cell>
+			<Cell><Data ss:Type="String">-22.903227</Data></Cell>
+			<Cell><Data ss:Type="String">-47.054074</Data></Cell>
+			<Cell><Data ss:Type="String">705</Data></Cell>
+			<Cell><Data ss:Type="String">69</Data></Cell>
+			<Cell><Data ss:Type="String">17.3</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">10400</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 00:43:49</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15972</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720064659</Data></Cell>
+			<Cell><Data ss:Type="String">-22.903910</Data></Cell>
+			<Cell><Data ss:Type="String">-47.052903</Data></Cell>
+			<Cell><Data ss:Type="String">699</Data></Cell>
+			<Cell><Data ss:Type="String">230</Data></Cell>
+			<Cell><Data ss:Type="String">14.3</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">10500</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 00:44:19</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15973</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720064689</Data></Cell>
+			<Cell><Data ss:Type="String">-22.904349</Data></Cell>
+			<Cell><Data ss:Type="String">-47.053956</Data></Cell>
+			<Cell><Data ss:Type="String">723</Data></Cell>
+			<Cell><Data ss:Type="String">242</Data></Cell>
+			<Cell><Data ss:Type="String">4.2</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">10600</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 00:44:49</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15977</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720066179</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 01:09:39</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15978</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720066783</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 01:19:43</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15979</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720067394</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 01:29:54</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15980</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720067994</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 01:39:54</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15981</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720068583</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 01:49:43</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15983</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720069176</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 01:59:36</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15985</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720069776</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 02:09:36</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15989</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720070377</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 02:19:37</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15991</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720070984</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 02:29:44</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15993</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720071576</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 02:39:36</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15997</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720072174</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 02:49:34</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15999</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720072774</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 02:59:34</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16001</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720073386</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 03:09:46</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16005</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720073982</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 03:19:42</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16007</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720074584</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 03:29:44</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16009</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720075198</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 03:39:58</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16013</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720075896</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 03:51:36</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16015</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720076381</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 03:59:41</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16017</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720076982</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 04:09:42</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16021</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720078241</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 04:30:41</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16022</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720078783</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 04:39:43</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16025</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720079407</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 04:50:07</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16026</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720080010</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 05:00:10</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16027</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720080582</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 05:09:42</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16030</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720081195</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 05:19:55</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16031</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720081796</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 05:29:56</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16032</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720082382</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 05:39:42</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16035</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720082998</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 05:49:58</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16036</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720083616</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 06:00:16</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16037</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720084181</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 06:09:41</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16040</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720084778</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 06:19:38</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16041</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720085381</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 06:29:41</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16042</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720086008</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 06:40:08</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16057</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720086580</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 06:49:40</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16066</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720087181</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 06:59:41</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16067</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720087785</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 07:09:45</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16084</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720088381</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 07:19:41</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16087</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720088981</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 07:29:41</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16090</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720089578</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 07:39:38</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16105</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720090209</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 07:50:09</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16106</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720090782</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 07:59:42</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16107</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720091380</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 08:09:40</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16108</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720091984</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 08:19:44</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16109</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720092580</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 08:29:40</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16110</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720093185</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 08:39:45</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16111</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720093784</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 08:49:44</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16112</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720094392</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 08:59:52</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16113</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720094980</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 09:09:40</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16114</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720096218</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 09:30:18</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16115</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720096797</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 09:39:57</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16116</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720097396</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 09:49:56</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16117</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720097984</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 09:59:44</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16118</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720098585</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:09:45</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16119</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720099182</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:19:42</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16120</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720099788</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892804</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046601</Data></Cell>
+			<Cell><Data ss:Type="String">663</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:29:48</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16121</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720100380</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892491</Data></Cell>
+			<Cell><Data ss:Type="String">-47.047074</Data></Cell>
+			<Cell><Data ss:Type="String">622</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:39:40</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16141</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720100649</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892829</Data></Cell>
+			<Cell><Data ss:Type="String">-47.047116</Data></Cell>
+			<Cell><Data ss:Type="String">668</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:44:09</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16144</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720100675</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892829</Data></Cell>
+			<Cell><Data ss:Type="String">-47.047116</Data></Cell>
+			<Cell><Data ss:Type="String">668</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:44:35</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16147</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720100741</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892829</Data></Cell>
+			<Cell><Data ss:Type="String">-47.047116</Data></Cell>
+			<Cell><Data ss:Type="String">668</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:45:41</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16154</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720100879</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892730</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046959</Data></Cell>
+			<Cell><Data ss:Type="String">694</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">3.3</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:47:59</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16155</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720100891</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892551</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046929</Data></Cell>
+			<Cell><Data ss:Type="String">667</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:48:11</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16158</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720100921</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892551</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046929</Data></Cell>
+			<Cell><Data ss:Type="String">667</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:48:41</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16159</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720100951</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892551</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046929</Data></Cell>
+			<Cell><Data ss:Type="String">667</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:49:11</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16163</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720100956</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892551</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046929</Data></Cell>
+			<Cell><Data ss:Type="String">667</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:49:16</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16165</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720100964</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892551</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046929</Data></Cell>
+			<Cell><Data ss:Type="String">667</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTIGN</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:49:24</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16166</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720100965</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892551</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046929</Data></Cell>
+			<Cell><Data ss:Type="String">667</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:49:25</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16169</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720100974</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892551</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046929</Data></Cell>
+			<Cell><Data ss:Type="String">667</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTIGN</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:49:34</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16170</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720100975</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892551</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046929</Data></Cell>
+			<Cell><Data ss:Type="String">667</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:49:35</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16171</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101007</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892551</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046929</Data></Cell>
+			<Cell><Data ss:Type="String">667</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:50:07</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16172</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101037</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892551</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046929</Data></Cell>
+			<Cell><Data ss:Type="String">667</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:50:37</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16174</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101042</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892551</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046929</Data></Cell>
+			<Cell><Data ss:Type="String">667</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:50:42</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16176</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101058</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892551</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046929</Data></Cell>
+			<Cell><Data ss:Type="String">667</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTIGN</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:50:58</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16177</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101059</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892551</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046929</Data></Cell>
+			<Cell><Data ss:Type="String">667</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:50:59</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16178</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101061</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892551</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046929</Data></Cell>
+			<Cell><Data ss:Type="String">667</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:51:01</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16182</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101077</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892551</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046929</Data></Cell>
+			<Cell><Data ss:Type="String">667</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTIGN</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:51:17</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16183</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101078</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892551</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046929</Data></Cell>
+			<Cell><Data ss:Type="String">667</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:51:18</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16184</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101084</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892551</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046929</Data></Cell>
+			<Cell><Data ss:Type="String">667</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTIGN</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:51:24</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16185</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101085</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892551</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046929</Data></Cell>
+			<Cell><Data ss:Type="String">667</Data></Cell>
+			<Cell><Data ss:Type="String">303</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:51:25</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16187</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101095</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892584</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046819</Data></Cell>
+			<Cell><Data ss:Type="String">665</Data></Cell>
+			<Cell><Data ss:Type="String">76</Data></Cell>
+			<Cell><Data ss:Type="String">6.4</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:51:35</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16188</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101102</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892601</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046759</Data></Cell>
+			<Cell><Data ss:Type="String">664</Data></Cell>
+			<Cell><Data ss:Type="String">76</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTIGN</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:51:42</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16191</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101104</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892601</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046759</Data></Cell>
+			<Cell><Data ss:Type="String">664</Data></Cell>
+			<Cell><Data ss:Type="String">79</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:51:44</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16192</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101110</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892625</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046699</Data></Cell>
+			<Cell><Data ss:Type="String">662</Data></Cell>
+			<Cell><Data ss:Type="String">95</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTIGN</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:51:50</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16193</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101111</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892625</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046699</Data></Cell>
+			<Cell><Data ss:Type="String">662</Data></Cell>
+			<Cell><Data ss:Type="String">95</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:51:51</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16194</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101116</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892625</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046699</Data></Cell>
+			<Cell><Data ss:Type="String">662</Data></Cell>
+			<Cell><Data ss:Type="String">95</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:51:56</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16198</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101149</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892625</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046699</Data></Cell>
+			<Cell><Data ss:Type="String">662</Data></Cell>
+			<Cell><Data ss:Type="String">95</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTIGN</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:52:29</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16199</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101150</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892625</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046699</Data></Cell>
+			<Cell><Data ss:Type="String">662</Data></Cell>
+			<Cell><Data ss:Type="String">95</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:52:30</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16200</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101152</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892625</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046699</Data></Cell>
+			<Cell><Data ss:Type="String">662</Data></Cell>
+			<Cell><Data ss:Type="String">95</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:52:32</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16201</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101153</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892625</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046699</Data></Cell>
+			<Cell><Data ss:Type="String">662</Data></Cell>
+			<Cell><Data ss:Type="String">95</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:52:33</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16202</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101182</Data></Cell>
+			<Cell><Data ss:Type="String">-22.891884</Data></Cell>
+			<Cell><Data ss:Type="String">-47.045373</Data></Cell>
+			<Cell><Data ss:Type="String">669</Data></Cell>
+			<Cell><Data ss:Type="String">71</Data></Cell>
+			<Cell><Data ss:Type="String">26.6</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13200</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:53:02</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16206</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101207</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892149</Data></Cell>
+			<Cell><Data ss:Type="String">-47.044101</Data></Cell>
+			<Cell><Data ss:Type="String">673</Data></Cell>
+			<Cell><Data ss:Type="String">110</Data></Cell>
+			<Cell><Data ss:Type="String">42.7</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13400</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:53:27</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16207</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101211</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892262</Data></Cell>
+			<Cell><Data ss:Type="String">-47.043805</Data></Cell>
+			<Cell><Data ss:Type="String">672</Data></Cell>
+			<Cell><Data ss:Type="String">114</Data></Cell>
+			<Cell><Data ss:Type="String">15</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13200</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTIGN</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:53:31</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16208</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101212</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892278</Data></Cell>
+			<Cell><Data ss:Type="String">-47.043774</Data></Cell>
+			<Cell><Data ss:Type="String">673</Data></Cell>
+			<Cell><Data ss:Type="String">116</Data></Cell>
+			<Cell><Data ss:Type="String">11.9</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13400</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:53:32</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16210</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101241</Data></Cell>
+			<Cell><Data ss:Type="String">-22.893113</Data></Cell>
+			<Cell><Data ss:Type="String">-47.042542</Data></Cell>
+			<Cell><Data ss:Type="String">664</Data></Cell>
+			<Cell><Data ss:Type="String">112</Data></Cell>
+			<Cell><Data ss:Type="String">27.4</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13600</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:54:01</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16211</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101247</Data></Cell>
+			<Cell><Data ss:Type="String">-22.893276</Data></Cell>
+			<Cell><Data ss:Type="String">-47.042108</Data></Cell>
+			<Cell><Data ss:Type="String">658</Data></Cell>
+			<Cell><Data ss:Type="String">114</Data></Cell>
+			<Cell><Data ss:Type="String">29.7</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13600</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:54:07</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16212</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101249</Data></Cell>
+			<Cell><Data ss:Type="String">-22.893307</Data></Cell>
+			<Cell><Data ss:Type="String">-47.041982</Data></Cell>
+			<Cell><Data ss:Type="String">657</Data></Cell>
+			<Cell><Data ss:Type="String">99</Data></Cell>
+			<Cell><Data ss:Type="String">20</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13400</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTIGN</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:54:09</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16213</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101250</Data></Cell>
+			<Cell><Data ss:Type="String">-22.893310</Data></Cell>
+			<Cell><Data ss:Type="String">-47.041939</Data></Cell>
+			<Cell><Data ss:Type="String">658</Data></Cell>
+			<Cell><Data ss:Type="String">93</Data></Cell>
+			<Cell><Data ss:Type="String">14.9</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13600</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:54:10</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16217</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101274</Data></Cell>
+			<Cell><Data ss:Type="String">-22.891631</Data></Cell>
+			<Cell><Data ss:Type="String">-47.042411</Data></Cell>
+			<Cell><Data ss:Type="String">648</Data></Cell>
+			<Cell><Data ss:Type="String">326</Data></Cell>
+			<Cell><Data ss:Type="String">50.5</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">13800</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:54:34</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16218</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101284</Data></Cell>
+			<Cell><Data ss:Type="String">-22.891489</Data></Cell>
+			<Cell><Data ss:Type="String">-47.042520</Data></Cell>
+			<Cell><Data ss:Type="String">650</Data></Cell>
+			<Cell><Data ss:Type="String">326</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13800</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTIGN</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:54:44</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16219</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101285</Data></Cell>
+			<Cell><Data ss:Type="String">-22.891489</Data></Cell>
+			<Cell><Data ss:Type="String">-47.042520</Data></Cell>
+			<Cell><Data ss:Type="String">650</Data></Cell>
+			<Cell><Data ss:Type="String">326</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">13800</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:54:45</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16222</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101314</Data></Cell>
+			<Cell><Data ss:Type="String">-22.889245</Data></Cell>
+			<Cell><Data ss:Type="String">-47.043431</Data></Cell>
+			<Cell><Data ss:Type="String">654</Data></Cell>
+			<Cell><Data ss:Type="String">320</Data></Cell>
+			<Cell><Data ss:Type="String">26.6</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">14100</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:55:14</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16223</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101344</Data></Cell>
+			<Cell><Data ss:Type="String">-22.888483</Data></Cell>
+			<Cell><Data ss:Type="String">-47.044469</Data></Cell>
+			<Cell><Data ss:Type="String">661</Data></Cell>
+			<Cell><Data ss:Type="String">320</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">14200</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:55:44</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16226</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101374</Data></Cell>
+			<Cell><Data ss:Type="String">-22.888483</Data></Cell>
+			<Cell><Data ss:Type="String">-47.044469</Data></Cell>
+			<Cell><Data ss:Type="String">661</Data></Cell>
+			<Cell><Data ss:Type="String">320</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">14200</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:56:14</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16228</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101387</Data></Cell>
+			<Cell><Data ss:Type="String">-22.888483</Data></Cell>
+			<Cell><Data ss:Type="String">-47.044469</Data></Cell>
+			<Cell><Data ss:Type="String">661</Data></Cell>
+			<Cell><Data ss:Type="String">320</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">14200</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:56:27</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16229</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101388</Data></Cell>
+			<Cell><Data ss:Type="String">-22.888483</Data></Cell>
+			<Cell><Data ss:Type="String">-47.044469</Data></Cell>
+			<Cell><Data ss:Type="String">661</Data></Cell>
+			<Cell><Data ss:Type="String">320</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">14200</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:56:28</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16231</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101406</Data></Cell>
+			<Cell><Data ss:Type="String">-22.889091</Data></Cell>
+			<Cell><Data ss:Type="String">-47.045275</Data></Cell>
+			<Cell><Data ss:Type="String">653</Data></Cell>
+			<Cell><Data ss:Type="String">214</Data></Cell>
+			<Cell><Data ss:Type="String">23</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">14300</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:56:46</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16232</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101421</Data></Cell>
+			<Cell><Data ss:Type="String">-22.889201</Data></Cell>
+			<Cell><Data ss:Type="String">-47.045356</Data></Cell>
+			<Cell><Data ss:Type="String">649</Data></Cell>
+			<Cell><Data ss:Type="String">214</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">14300</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTIGN</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:57:01</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16233</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101422</Data></Cell>
+			<Cell><Data ss:Type="String">-22.889201</Data></Cell>
+			<Cell><Data ss:Type="String">-47.045356</Data></Cell>
+			<Cell><Data ss:Type="String">649</Data></Cell>
+			<Cell><Data ss:Type="String">214</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">14300</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:57:02</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16235</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101432</Data></Cell>
+			<Cell><Data ss:Type="String">-22.889475</Data></Cell>
+			<Cell><Data ss:Type="String">-47.045586</Data></Cell>
+			<Cell><Data ss:Type="String">645</Data></Cell>
+			<Cell><Data ss:Type="String">213</Data></Cell>
+			<Cell><Data ss:Type="String">13.1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">14400</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:57:12</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16236</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101465</Data></Cell>
+			<Cell><Data ss:Type="String">-22.889502</Data></Cell>
+			<Cell><Data ss:Type="String">-47.045604</Data></Cell>
+			<Cell><Data ss:Type="String">644</Data></Cell>
+			<Cell><Data ss:Type="String">213</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">14400</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTIGN</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:57:45</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16237</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101466</Data></Cell>
+			<Cell><Data ss:Type="String">-22.889502</Data></Cell>
+			<Cell><Data ss:Type="String">-47.045604</Data></Cell>
+			<Cell><Data ss:Type="String">644</Data></Cell>
+			<Cell><Data ss:Type="String">213</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">14400</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:57:46</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16242</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101496</Data></Cell>
+			<Cell><Data ss:Type="String">-22.889425</Data></Cell>
+			<Cell><Data ss:Type="String">-47.044053</Data></Cell>
+			<Cell><Data ss:Type="String">631</Data></Cell>
+			<Cell><Data ss:Type="String">131</Data></Cell>
+			<Cell><Data ss:Type="String">32.5</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">14600</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:58:16</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16243</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101526</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892467</Data></Cell>
+			<Cell><Data ss:Type="String">-47.042259</Data></Cell>
+			<Cell><Data ss:Type="String">636</Data></Cell>
+			<Cell><Data ss:Type="String">155</Data></Cell>
+			<Cell><Data ss:Type="String">44.8</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">15000</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:58:46</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16246</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101557</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892838</Data></Cell>
+			<Cell><Data ss:Type="String">-47.043167</Data></Cell>
+			<Cell><Data ss:Type="String">656</Data></Cell>
+			<Cell><Data ss:Type="String">294</Data></Cell>
+			<Cell><Data ss:Type="String">20</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">15200</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:59:17</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16247</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101587</Data></Cell>
+			<Cell><Data ss:Type="String">-22.891643</Data></Cell>
+			<Cell><Data ss:Type="String">-47.045042</Data></Cell>
+			<Cell><Data ss:Type="String">654</Data></Cell>
+			<Cell><Data ss:Type="String">323</Data></Cell>
+			<Cell><Data ss:Type="String">33.6</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">15400</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 10:59:47</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16249</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101612</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892499</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046450</Data></Cell>
+			<Cell><Data ss:Type="String">643</Data></Cell>
+			<Cell><Data ss:Type="String">209</Data></Cell>
+			<Cell><Data ss:Type="String">30.9</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">15600</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 11:00:12</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16252</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101619</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892677</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046565</Data></Cell>
+			<Cell><Data ss:Type="String">642</Data></Cell>
+			<Cell><Data ss:Type="String">209</Data></Cell>
+			<Cell><Data ss:Type="String">2</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">15600</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTIGN</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 11:00:19</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16253</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101620</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892677</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046573</Data></Cell>
+			<Cell><Data ss:Type="String">642</Data></Cell>
+			<Cell><Data ss:Type="String">255</Data></Cell>
+			<Cell><Data ss:Type="String">2.6</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">15600</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 11:00:20</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16255</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101627</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892668</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046622</Data></Cell>
+			<Cell><Data ss:Type="String">643</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">9.3</Data></Cell>
+			<Cell><Data ss:Type="String">1</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">15600</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">GTERI</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 11:00:27</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16268</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720101926</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892706</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046979</Data></Cell>
+			<Cell><Data ss:Type="String">664</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 11:05:26</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16273</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720102083</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892706</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046979</Data></Cell>
+			<Cell><Data ss:Type="String">664</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 11:08:03</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16295</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720102679</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892706</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046979</Data></Cell>
+			<Cell><Data ss:Type="String">664</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 11:17:59</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16317</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720103279</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892706</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046979</Data></Cell>
+			<Cell><Data ss:Type="String">664</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 11:27:59</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16344</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720103880</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892706</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046979</Data></Cell>
+			<Cell><Data ss:Type="String">664</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 11:38:00</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16378</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720104483</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892706</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046979</Data></Cell>
+			<Cell><Data ss:Type="String">664</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 11:48:03</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16412</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720105081</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892706</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046979</Data></Cell>
+			<Cell><Data ss:Type="String">664</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 11:58:01</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16440</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720105685</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892706</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046979</Data></Cell>
+			<Cell><Data ss:Type="String">664</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 12:08:05</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16463</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720106281</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892706</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046979</Data></Cell>
+			<Cell><Data ss:Type="String">664</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 12:18:01</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16487</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720106895</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892706</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046979</Data></Cell>
+			<Cell><Data ss:Type="String">664</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 12:28:15</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16512</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720107500</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892706</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046979</Data></Cell>
+			<Cell><Data ss:Type="String">664</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 12:38:20</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16535</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720108128</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892706</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046979</Data></Cell>
+			<Cell><Data ss:Type="String">664</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 12:48:48</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16558</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720108692</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892706</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046979</Data></Cell>
+			<Cell><Data ss:Type="String">664</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 12:58:12</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16578</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720109174</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892747</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046951</Data></Cell>
+			<Cell><Data ss:Type="String">661</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 13:06:14</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16582</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720109282</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892747</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046951</Data></Cell>
+			<Cell><Data ss:Type="String">661</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 13:08:02</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16607</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720109903</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892747</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046951</Data></Cell>
+			<Cell><Data ss:Type="String">661</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 13:18:23</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16630</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720110490</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892747</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046951</Data></Cell>
+			<Cell><Data ss:Type="String">661</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 13:28:10</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16655</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720111090</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892747</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046951</Data></Cell>
+			<Cell><Data ss:Type="String">661</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 13:38:10</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16679</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720111713</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892747</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046951</Data></Cell>
+			<Cell><Data ss:Type="String">661</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 13:48:33</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16722</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720112885</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892747</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046951</Data></Cell>
+			<Cell><Data ss:Type="String">661</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 14:08:05</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16745</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720113486</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892747</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046951</Data></Cell>
+			<Cell><Data ss:Type="String">661</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 14:18:06</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16768</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720114083</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892747</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046951</Data></Cell>
+			<Cell><Data ss:Type="String">661</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 14:28:03</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16793</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720114693</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892747</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046951</Data></Cell>
+			<Cell><Data ss:Type="String">661</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 14:38:13</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16816</Data></Cell>
+			<Cell><Data ss:Type="String">867488060855136</Data></Cell>
+			<Cell><Data ss:Type="Number">1720115283</Data></Cell>
+			<Cell><Data ss:Type="String">-22.892747</Data></Cell>
+			<Cell><Data ss:Type="String">-47.046951</Data></Cell>
+			<Cell><Data ss:Type="String">661</Data></Cell>
+			<Cell><Data ss:Type="String">288</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String">0</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+			<Cell><Data ss:Type="String">GTMPF</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="Number">0</Data></Cell>
+			<Cell><Data ss:Type="String">2024-07-04 14:48:03</Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>

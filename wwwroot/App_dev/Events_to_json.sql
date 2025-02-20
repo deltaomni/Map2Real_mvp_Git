@@ -1,0 +1,1 @@
+SELECT JSON_ARRAYAGG(JSON_OBJECT('date',event_date,'lat', lat, 'lng', lng)) from events;

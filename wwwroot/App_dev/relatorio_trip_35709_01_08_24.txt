@@ -1,0 +1,168 @@
+{
+    "bounds": {
+        "NE": {
+            "lat": -22.876035,
+            "lng": -47.046284
+        },
+        "SW": {
+            "lat": -22.892764,
+            "lng": -47.047878
+        }
+    },
+    "details": {
+        "distance": 6900,
+        "distance_str": "6.9 km",
+        "duration": 1317,
+        "duration_str": "0h 21mins 0s",
+        "ignition": 0,
+        "status": "RUN",
+        "time_begin": "2024-08-01 17:01:23.000000",
+        "time_finish": "2024-08-01 17:23:20.000000",
+        "trip120": false,
+        "trip150": false,
+        "trip180": false
+    },
+    "date": {
+        "start": 1722542483,
+        "finish": 1722543800,
+        "duration": 1317
+    },
+    "date_local": {
+        "begin": "2024-08-01 17:01:23.000000",
+        "finish": "2024-08-01 17:23:20.000000",
+        "newday": false,
+        "shortbegin": "01/08/2024"
+    },
+    "device_imei": "867488060855003",
+    "distance": {
+        "total": 6900,
+        "fromstart": 2539400,
+        "toend": 2546300
+    },
+    "elevation": {
+        "minelevation": 590,
+        "minlatlng": {
+            "lat": -22.892747,
+            "lng": -47.046284
+        },
+        "maxelevation": 701,
+        "maxlatlng": {
+            "lat": -22.904258,
+            "lng": -47.053349
+        },
+        "ascention": 111,
+        "elstart": 643,
+        "elfinish": 603,
+        "eldiff": -40
+    },
+    "harsh_behavior": {
+        "hb10": [
+            35709,
+            35710,
+            35711,
+            35712,
+            35713,
+            35714,
+            35715,
+            35716,
+            35717,
+            35718,
+            35719,
+            35720,
+            35721,
+            35722,
+            35723,
+            35724,
+            35725,
+            35726,
+            35728,
+            35729,
+            35730,
+            35731,
+            35732,
+            35733,
+            35734,
+            35735,
+            35736,
+            35737,
+            35738,
+            35739,
+            35740,
+            35741,
+            35742,
+            35745,
+            35747,
+            35749,
+            35751,
+            35753,
+            35755,
+            35757,
+            35759,
+            35761,
+            35763,
+            35765,
+            35767
+        ],
+        "hb46": [
+            35727
+        ]
+    },
+    "id": {
+        "start": 35709,
+        "finish": 35767
+    },
+    "ignition": 0,
+    "latlngstart": {
+        "lat": -22.892764,
+        "lng": -47.04654
+    },
+    "latlngfinish": {
+        "lat": -22.876035,
+        "lng": -47.047878
+    },
+    "latlngheading": 99,
+    "speedlimits": [
+        {
+            "maxlimit": null,
+            "maxexceeded": null,
+            "maxrecorded": null,
+            "maxrecordedlatlng": null
+        }
+    ],
+    "speed": {
+        "maxrecorded": 49.6,
+        "maxrecordedlatlng": {
+            "lat": -22.894332,
+            "lng": -47.045276
+        },
+        "average": 5.239179954441913
+    },
+    "shortstops": [],
+    "summary": [
+        "RUN",
+        "RUN_FINISH",
+        "Pedal 10"
+    ],
+    "time": {
+        "total": 1317,
+        "idle": 26,
+        "move": 1291
+    },
+    "time_range": {
+        "day": {
+            "distance": 6900,
+            "duration": 1317
+        },
+        "night": {
+            "distance": 0,
+            "duration": 0
+        },
+        "critical": {
+            "distance": 0,
+            "duration": 0
+        }
+    },
+    "trip_nr": 11,
+    "trip_nr_m2": 35709,
+    "trip_type": "RUN"
+}

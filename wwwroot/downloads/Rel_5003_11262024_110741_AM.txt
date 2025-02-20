@@ -1,0 +1,5 @@
+﻿Veic 01	'867488060855003		'NaN	CAM5003	Instalado		Map2	Campinas															
+0	1	2	3	4	5	6	km	km/h	9	km/h	11	km/h	13	13a	14	15	16	17	18	%	%	%	%	%
+idt Viagem	IGN ON	IGN OFF	Data	Início latlng	Fim latlng	TT	DD	V.Média	Perfil	V.Máx	Vmáx latlng	V.Lim.	Pedal	Pedal/DD	Freada e curva	Accel. e curva	Accel. Brusca	Freada Brusca	Curva Brusca	V<30	30<V<60	60<V<90	90<V<120	V>120
+218515	12:02:56 AM	11:03:01 AM	11/26/24	Mapa	Mapa	11:00:05			-		Mapa									100.00				
+

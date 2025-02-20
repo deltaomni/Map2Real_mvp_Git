@@ -1,0 +1,146 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Relatório de Viagem {{trip.trip_nr_m2}}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="../../App_m2r/m2r_css/m2r_App_style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container m-4">
+        <div class="d-flex flex-column  flex-fill p-2">
+            <div class="d-flex justify-content-between align-items-end">
+                <img height="50" src="../../static/img/m2r/Logo_map2Real_tr.png" />
+                <h4><strong>Relatório de Viagem </strong></h4>
+            </div>
+            <div class="d-flex f-xsmall justify-content-end fw-700">
+                <div class="p-2 "> {{vehicle.make}}<br /></div>
+                <div class="p-2 border-end "> {{vehicle.plate}}</div>
+                <div class="p-2 "> {{device_imei}}</div>
+            </div>
+        </div>
+        <div class="d-flex flex-column">
+            <h6 class="align-self-end"><strong>{{trip.trip_nr_m2}}</strong></h6>
+            <div class="d-flex flex-row  flex-fill p-0 py-0 f-xxsmall text-center">
+                <div class="p-0 cw-65 border cell-bd">p</div>
+                <div class="p-0 cw-50 border cell-bd">i</div>
+
+                <div class="p-0 cw-50 border cell-bd">0</div>
+                <div class="p-0 cw-60 border cell-bd">1</div>
+                <div class="p-0 cw-60 border cell-bd">2</div>
+                <div class="p-0 cw-50 border cell-bd">3</div>
+
+                <div class="p-0 cw-40 border cell-bd">4</div>
+                <div class="p-0 cw-40 border cell-bd">5</div>
+                <div class="p-0 cw-50 border cell-bd">6</div>
+
+                <div class="p-0 cw-60 border cell-bd">km</div>
+                <div class="p-0 cw-40 border cell-bd">km/h</div>
+                <div class="p-0 cw-40 border cell-bd">9</div>
+                <div class="p-0 cw-40 border cell-bd">km/h</div>
+
+                <div class="p-0 cw-40 border cell-bd">11</div>
+                <div class="p-0 cw-50 border cell-bd">km/h</div>
+                <div class="p-0 cw-40 border cell-bd">13</div>
+                <div class="p-0 cw-40 border cell-bd">13a</div>
+
+                <div class="p-0 cw-40 border cell-bd">14</div>
+                <div class="p-0 cw-40 border cell-bd">15</div>
+                <div class="p-0 cw-40 border cell-bd">16</div>
+
+                <div class="p-0 cw-40 border cell-bd">17</div>
+                <div class="p-0 cw-40 border cell-bd">18</div>
+                <div class="p-0 cw-50 border cell-bd">19</div><!--rev:29/12/24-->
+                
+                <div class="p-0 cw-50 border cell-bd">%</div>
+                <div class="p-0 cw-50 border cell-bd">%</div>
+                <div class="p-0 cw-50 border cell-bd">%</div>
+                <div class="p-0 cw-50 border cell-bd">%</div>
+
+                <div class="p-0 cw-50 border cell-bd">%</div>
+                <div class="p-0 cw-50 border cell-bd">25</div>
+                <div class="p-0 cw-50 border cell-bd-end">26</div>
+            </div>
+
+            <div class="d-flex flex-row flex-fill p-0 pb-0 f-xxsmall fw-500 text-center">
+                <div class="p-0 cw-65 border cell-bd"><br />Placa</div>
+                <div class="p-0 cw-50 border cell-bd"><br />IMEI</div>
+                <div class="p-0 cw-50 border cell-bd">idt<br />Viagem</div>
+                <div class="p-0 cw-60 border cell-bd">Ignição<br />ON</div>
+                <div class="p-0 cw-60 border cell-bd">Ignição<br />OFF</div>
+                <div class="p-0 cw-50 border cell-bd"><br />Data</div>
+
+                <div class="p-0 cw-40 border cell-bd">Início<br />lat,lng</div>
+                <div class="p-0 cw-40 border cell-bd">Fim<br />lat,lng</div>
+                <div class="p-0 cw-50 border cell-bd"><br />TT</div>
+
+                <div class="p-0 cw-60 border cell-bd"><br />DD</div>
+                <div class="p-0 cw-40 border cell-bd">V.<br />Média</div>
+                <div class="p-0 cw-40 border cell-bd"><br />Perfil</div>
+                <div class="p-0 cw-40 border cell-bd">V.<br />Máx.</div>
+
+                <div class="p-0 cw-40 border cell-bd">Vmáx<br />lat, lng</div>
+                <div class="p-0 cw-50 border cell-bd">V.<br />Lim.</div>
+                <div class="p-0 cw-40 border cell-bd"><br />Pedal</div>
+                <div class="p-0 cw-40 border cell-bd">Pedal/<br />DD</div>
+
+                <div class="p-0 cw-40 border cell-bd">Freada<br />& curva</div>
+                <div class="p-0 cw-40 border cell-bd">Accel.<br />& curva</div>
+                <div class="p-0 cw-40 border cell-bd">Accel.<br />Brusca</div>
+
+                <div class="p-0 cw-40 border cell-bd">Freada<br />Brusca</div>
+                <div class="p-0 cw-40 border cell-bd">Curva<br />Brusca</div>
+                <div class="p-0 cw-50 border cell-bd"><br />Idling</div>
+                <div class="p-0 cw-50 border cell-bd">V&lt;30(*)<br />(km/h)</div>
+
+                <div class="p-0 cw-50 border cell-bd">30&lt;V&lt;60<br />(km/h)</div>
+                <div class="p-0 cw-50 border cell-bd">60&lt;V&lt;90<br />(km/h)</div>
+                <div class="p-0 cw-50 border cell-bd">90&lt;V&lt;120<br />(km/h)</div>
+
+                <div class="p-0 cw-50 border cell-bd">V&gt;120<br />(km/h)</div>
+                <div class="p-0 cw-50 border cell-bd"><br />Noite</div>
+                <div class="p-0 cw-50 border cell-bd-end"><br />Crít.</div>
+
+            </div>
+
+            <!--<div class="d-flex flex-row flex-fill p-0 py-0 f-xxsmall text-center">
+                <div class="p-0 cw-50 border cell-bd">37502</div>
+                <div class="p-0 cw-50 border cell-bd">12:03:58</div>
+                <div class="p-0 cw-50 border cell-bd">12:12:17</div>
+                <div class="p-0 cw-50 border cell-bd">06/08/2024</div>
+
+                <div class="p-0 cw-60 border cell-bd">-26.286919,<br />-48.810866</div>
+                <div class="p-0 cw-60 border cell-bd">-26.305625,<br />-48.82545</div>
+                <div class="p-0 cw-65 border cell-bd">0h 8mins 19s</div>
+
+                <div class="p-0 cw-60 border cell-bd">2.9 km</div>
+                <div class="p-0 cw-40 border cell-bd">5.81 km/h</div>
+                <div class="p-0 cw-40 border cell-bd">50.0 km/h</div>
+
+                <div class="p-0 cw-50 border cell-bd">26.297438,<br />-48.82037</div>
+                <div class="p-0 cw-50 border cell-bd">--</div>
+                <div class="p-0 cw-40 border cell-bd">18</div>
+
+                <div class="p-0 cw-40 border cell-bd">--</div>
+                <div class="p-0 cw-40 border cell-bd">--</div>
+                <div class="p-0 cw-40 border cell-bd">--</div>
+
+                <div class="p-0 cw-40 border cell-bd">--</div>
+                <div class="p-0 cw-40 border cell-bd">--</div>
+                <div class="p-0 cw-50 border cell-bd">--</div>
+
+                <div class="p-0 cw-50 border cell-bd">--</div>
+                <div class="p-0 cw-50 border cell-bd">--</div>
+                <div class="p-0 cw-50 border cell-bd">--</div>
+
+                <div class="p-0 cw-50 border cell-bd-end">--</div>
+
+            </div>-->
+
+            {{body}}
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
